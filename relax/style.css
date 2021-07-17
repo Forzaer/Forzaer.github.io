@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+} 
+.som{
+    color: black;
+    padding-bottom: .15em;
+    text-decoration: none;
+    font-size: 25px;
+    width: 90px;
+    
+}
+
+.link-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.som:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 50%;
+    border-bottom: 10;
+    padding-bottom: .5em;
+    color: rgb(240, 230, 140);
+    transition: 0.2s ease;
+    text-decoration: none;
+}
+.cite{
+    text-decoration: none;
+    color: purple;
+    border-bottom: 2px solid transparent;
+    font-size: 25px;
+    width: 90px;
+    display: flex;
+    transition: 0.2s ease;
+}
+.cite:hover{
+    color: rgb(61, 245, 37);
+
+    border-color: rgb(61, 245, 37);
+}
+.I_I{
+    color: white;
+    padding-bottom: .155em;
+    text-decoration: none;
+    font-size: 25px;
+    width: 90px;
+    
+}
+
+.I_I:hover{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 50%;
+    border-bottom: 10;
+    padding-bottom: .5em;
+    color: rgb(139, 0, 0);
+    transition: 0.2s ease;
+    text-decoration: none;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+   /* background-color: gold;*/
+   background: url('https://catherineasquithgallery.com/uploads/posts/2021-03/1614642596_16-p-fon-dlya-fotoshopa-abstraktsiya-20.jpg');
+}
+
+.blue-text{
+    color:blue;
+}
+.red-text{
+    color: red;
+}
+.white-text{
+    color: white;
+}
+.black-text{
+    color: black;
+}
+.orange-text{
+    color: orange;
+}
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+    width: 100%;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+    font-size: 60px;
+    
+}
+
+h3 {
+    color:black;
+    margin: auto;
+    font-size: 30px;
+    width: 21%
+}
+
+h4 {
+    color: cyan;
+    text-align: center;
+    font-size: 25px;
+    
+}
+h5{
+    color:rgb(0, 255, 0);
+    text-align: center;
+    font-size: 30px;
+}
+h6{
+    color:rgb(0, 255, 0);
+    text-align: center;
+    font-size: 45px;
+}
+
+img {
+    padding: 15px;
+    margin: 10px auto;
+    width: 55%;
+    height: auto;
+    display: block;
+}
